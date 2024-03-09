@@ -162,10 +162,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;что-то умное&#34; srcset=&#34;
-               /post/post2/f_hufcb633eabb4ce248b64f5422c2c69f5a_20255_931aaf0d5e49ede1f8cf8ec174603042.webp 400w,
+               /post/post2/f_hufcb633eabb4ce248b64f5422c2c69f5a_20255_4619eee99a45a8dd1eaf993a661468a0.webp 400w,
                /post/post2/f_hufcb633eabb4ce248b64f5422c2c69f5a_20255_0ca4615a96653c021065a1b39a1eb507.webp 760w,
                /post/post2/f_hufcb633eabb4ce248b64f5422c2c69f5a_20255_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://example.com/post/post2/f_hufcb633eabb4ce248b64f5422c2c69f5a_20255_931aaf0d5e49ede1f8cf8ec174603042.webp&#34;
+               src=&#34;https://example.com/post/post2/f_hufcb633eabb4ce248b64f5422c2c69f5a_20255_4619eee99a45a8dd1eaf993a661468a0.webp&#34;
                width=&#34;760&#34;
                height=&#34;649&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -328,7 +328,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-587142693&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-476892513&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -338,7 +338,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-587142693&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-476892513&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
