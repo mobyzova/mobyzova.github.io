@@ -141,5 +141,53 @@
 </description>
     </item>
     
+    <item>
+      <title>Язык разметки Markdown</title>
+      <link>https://example.com/post/post4/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/post4/</guid>
+      <description>&lt;p&gt;Markdown — это простой язык разметки, используемый для создания форматированного текста (например, HTML) с помощью текстового редактора. Он позволяет добавлять к тексту базовое форматирование, используя символы, известные и доступные на всех клавиатурах. Размер шрифта, цвет и другие расширенные параметры недоступны в Markdown.&lt;/p&gt;
+&lt;p&gt;Вы можете встретить Markdown в .md или .markdown файлах.&lt;/p&gt;
+&lt;p&gt;Такие файлы содержат базовые элементы, которые можно найти почти в любом README.md:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1. заголовок первого уровня для названия;
+2. выделение жирным шрифтом важных частей в описании;
+3. ссылка с понятным текстом;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Несмотря на то, что Markdown достаточно удобно читать в исходном виде, его часто переводят в HTML.&lt;/p&gt;
+&lt;p&gt;Синтаксис&lt;/p&gt;
+&lt;p&gt;Параграф — это одна или несколько подряд идущих строчек текста, отделённых одной или несколькими пустыми строчками. Если строка содержит только пробелы или табы, то она всё равно считается пустой.&lt;/p&gt;
+&lt;p&gt;Подряд идущие строчки будут склеены в одну, если не добавить жёсткий перенос. Существует несколько способов, как это можно сделать:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;добавить два (или больше) пробелов в конце строки &amp;lt;пробел&amp;gt;&amp;lt;пробел&amp;gt;;
+добавить обратную косую черту в конце строки \;
+добавить HTML-тег переноса строки &amp;lt;br&amp;gt;.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Markdown предлагает два стиля написания заголовков: через решётки и через подчёркивания (====). Можно использовать до шести уровней заголовков, но подчёркивания позволяют создавать только первые два.&lt;/p&gt;
+&lt;p&gt;Для того чтобы выделить заголовок, необходимо поставить от 1 до 6 решёток и пробел в самом начале строки. Уровень заголовка зависит только от количества решёток.&lt;/p&gt;
+&lt;p&gt;«Подчёркивание» параграфа знаками равно или дефисами делает его заголовком первого или второго уровня соответственно. Уровень заголовка зависит только от типа «чёрточек», их количество значения не имеет.&lt;/p&gt;
+&lt;p&gt;Между текстом и «подчёркиванием» не должно быть пустых строк.&lt;/p&gt;
+&lt;p&gt;Для создания маркированных (ненумерованных) списков перед каждым пунктом нужно поставить минус, плюс или звёздочку. Маркер и текст пункта необходимо разделять пробелом.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-MD&#34; data-lang=&#34;MD&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Помидор
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Огурец
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Бублик
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+ Ватрушка
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt; Молоко
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt; Кефир
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Помидор&lt;/li&gt;
+&lt;li&gt;Огурец&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Бублик&lt;/li&gt;
+&lt;li&gt;Ватрушка&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Молоко&lt;/li&gt;
+&lt;li&gt;Кефир&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
